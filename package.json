@@ -1,12 +1,16 @@
 {
-    "name": "BotTest",
-    "description": "test",
+    "name": "Penny Polendina",
+    "description": "SA LU TA TIONS!",
     "version": "1.0.0",
     "main": "bot.js",
     "scripts": {
       "start": "node bot.js"
     },
     "dependencies": {
-        "discord.js": "^11.3.2"
+        "discord.io": "^2.5.3",
+        "discord.js": "^11.3.2",
+        "npm": "^5.7.1",
+        "properties-reader": "0.0.16",
+        "winston": "^2.4.0"
     }
 }
