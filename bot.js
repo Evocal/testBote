@@ -23,15 +23,6 @@ try {
     data = {};
 }
 
-var properties; //Lectura settings.properties
-
-try {
-    properties = PropertiesReader('settings.properties');
-} catch (err) {
-    console.log("You need to create a settings.properties file in the application folder. See README for more informations.");
-    process.exit(1);
-}
-
 const token = properties.get('token'); //Obtenemos la variable token de properties
 
 //Variables compuestas
